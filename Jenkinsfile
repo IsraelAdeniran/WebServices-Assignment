@@ -27,6 +27,7 @@ pipeline {
         // Run the Docker container with credentials passed securely
         stage('Run') {
             steps {
+                sh 'docker rm -f webservices-container || true'
                 sh 'docker run -d -p 8000:8000 --name webservices-container -e MONGO_URI=$MONGO_URI -e DB_NAME=productsDB webservices-app'
                 sh 'sleep 10'
             }
