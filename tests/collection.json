@@ -27,7 +27,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8000/getSingleProduct/1001",
+          "raw": "http://host.docker.internal:8000/getSingleProduct/1001",
           "protocol": "http",
           "host": [
             "localhost"
@@ -62,7 +62,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8000/getAll",
+          "raw": "http://host.docker.internal:8000/getAll",
           "protocol": "http",
           "host": [
             "localhost"
@@ -105,7 +105,7 @@
           }
         },
         "url": {
-          "raw": "http://localhost:8000/addNew",
+          "raw": "http://host.docker.internal:8000/addNew",
           "protocol": "http",
           "host": [
             "localhost"
@@ -139,7 +139,7 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "http://localhost:8000/deleteOne/9999",
+          "raw": "http://host.docker.internal:8000/deleteOne/9999",
           "protocol": "http",
           "host": [
             "localhost"
@@ -174,7 +174,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8000/startsWith/N",
+          "raw": "http://host.docker.internal:8000/startsWith/N",
           "protocol": "http",
           "host": [
             "localhost"
@@ -209,7 +209,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8000/paginate?page=1&limit=10",
+          "raw": "http://host.docker.internal:8000/paginate?page=1&limit=10",
           "protocol": "http",
           "host": [
             "localhost"
@@ -253,7 +253,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8000/convert/1001",
+          "raw": "http://host.docker.internal:8000/convert/1001",
           "protocol": "http",
           "host": [
             "localhost"
