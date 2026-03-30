@@ -30,7 +30,7 @@
           "raw": "http://host.docker.internal:8000/getSingleProduct/1001",
           "protocol": "http",
           "host": [
-            "localhost"
+            "host.docker.internal"
           ],
           "port": "8000",
           "path": [
@@ -53,8 +53,7 @@
               "});"
             ],
             "type": "text/javascript",
-            "packages": {},
-            "requests": {}
+            "packages": {}
           }
         }
       ],
@@ -65,7 +64,7 @@
           "raw": "http://host.docker.internal:8000/getAll",
           "protocol": "http",
           "host": [
-            "localhost"
+            "host.docker.internal"
           ],
           "port": "8000",
           "path": [
@@ -87,8 +86,7 @@
               "});"
             ],
             "type": "text/javascript",
-            "packages": {},
-            "requests": {}
+            "packages": {}
           }
         }
       ],
@@ -108,7 +106,7 @@
           "raw": "http://host.docker.internal:8000/addNew",
           "protocol": "http",
           "host": [
-            "localhost"
+            "host.docker.internal"
           ],
           "port": "8000",
           "path": [
@@ -130,8 +128,7 @@
               "});"
             ],
             "type": "text/javascript",
-            "packages": {},
-            "requests": {}
+            "packages": {}
           }
         }
       ],
@@ -142,7 +139,7 @@
           "raw": "http://host.docker.internal:8000/deleteOne/9999",
           "protocol": "http",
           "host": [
-            "localhost"
+            "host.docker.internal"
           ],
           "port": "8000",
           "path": [
@@ -165,8 +162,7 @@
               "});"
             ],
             "type": "text/javascript",
-            "packages": {},
-            "requests": {}
+            "packages": {}
           }
         }
       ],
@@ -177,7 +173,7 @@
           "raw": "http://host.docker.internal:8000/startsWith/N",
           "protocol": "http",
           "host": [
-            "localhost"
+            "host.docker.internal"
           ],
           "port": "8000",
           "path": [
@@ -200,8 +196,7 @@
               "});"
             ],
             "type": "text/javascript",
-            "packages": {},
-            "requests": {}
+            "packages": {}
           }
         }
       ],
@@ -209,10 +204,10 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://host.docker.internal:8000/paginate?page=1&limit=10",
+          "raw": "http://host.docker.internal:8000/paginate?start_id=1001&end_id=1010",
           "protocol": "http",
           "host": [
-            "localhost"
+            "host.docker.internal"
           ],
           "port": "8000",
           "path": [
@@ -220,12 +215,12 @@
           ],
           "query": [
             {
-              "key": "page",
-              "value": "1"
+              "key": "start_id",
+              "value": "1001"
             },
             {
-              "key": "limit",
-              "value": "10"
+              "key": "end_id",
+              "value": "1010"
             }
           ]
         }
@@ -244,8 +239,7 @@
               "});"
             ],
             "type": "text/javascript",
-            "packages": {},
-            "requests": {}
+            "packages": {}
           }
         }
       ],
@@ -256,7 +250,7 @@
           "raw": "http://host.docker.internal:8000/convert/1001",
           "protocol": "http",
           "host": [
-            "localhost"
+            "host.docker.internal"
           ],
           "port": "8000",
           "path": [
